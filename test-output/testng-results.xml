@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-07T21:16:23Z" name="Suite" finished-at="2022-12-07T21:16:24Z" duration-ms="346">
+  <suite started-at="2022-12-07T22:12:07Z" name="Suite" finished-at="2022-12-07T22:12:07Z" duration-ms="258">
     <groups>
     </groups>
-    <test started-at="2022-12-07T21:16:23Z" name="Foreign Player Verification" finished-at="2022-12-07T21:16:23Z" duration-ms="48">
+    <test started-at="2022-12-07T22:12:07Z" name="Foreign Player Verification" finished-at="2022-12-07T22:12:07Z" duration-ms="43">
       <class name="com.RCB.test.ForeignPlayerVerification">
-        <test-method signature="validateFourForeignPlayer()[pri:0, instance:com.RCB.test.ForeignPlayerVerification@6a55299e]" started-at="2022-12-07T21:16:23Z" name="validateFourForeignPlayer" finished-at="2022-12-07T21:16:23Z" duration-ms="19" status="PASS">
+        <test-method signature="validateFourForeignPlayer()[pri:0, instance:com.RCB.test.ForeignPlayerVerification@6a55299e]" started-at="2022-12-07T22:12:07Z" name="validateFourForeignPlayer" finished-at="2022-12-07T22:12:07Z" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFourForeignPlayer -->
       </class> <!-- com.RCB.test.ForeignPlayerVerification -->
     </test> <!-- Foreign Player Verification -->
-    <test started-at="2022-12-07T21:16:24Z" name="Wicket keeper Verification" finished-at="2022-12-07T21:16:24Z" duration-ms="4">
+    <test started-at="2022-12-07T22:12:07Z" name="Wicket keeper Verification" finished-at="2022-12-07T22:12:07Z" duration-ms="4">
       <class name="com.RCB.test.WicketkeeperVerification">
-        <test-method signature="validateWicketKeeper()[pri:0, instance:com.RCB.test.WicketkeeperVerification@7862f56]" started-at="2022-12-07T21:16:24Z" name="validateWicketKeeper" finished-at="2022-12-07T21:16:24Z" duration-ms="2" status="PASS">
+        <test-method signature="validateWicketKeeper()[pri:0, instance:com.RCB.test.WicketkeeperVerification@7862f56]" started-at="2022-12-07T22:12:07Z" name="validateWicketKeeper" finished-at="2022-12-07T22:12:07Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateWicketKeeper -->

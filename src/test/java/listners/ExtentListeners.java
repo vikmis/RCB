@@ -23,7 +23,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 
 
-public class ExtentListeners implements ITestListener, ISuiteListener {
+public class ExtentListeners implements ITestListener{
 
 	static Date d = new Date();
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
@@ -99,34 +99,8 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 
 	}
 
-	public void onStart(ISuite suite) {
-		// TODO Auto-generated method stub
+	
 		
-	}
-
-	public void onFinish(ISuite suite) {
-		
-
-/*
-		try {
-			 messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/APITestingFramework/Extent_20Reports/"+fileName;
-		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		MonitoringMail mail = new MonitoringMail();
-		try {
-			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
-		} catch (AddressException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (MessagingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-*/
-		
-	}
+	
 
 }

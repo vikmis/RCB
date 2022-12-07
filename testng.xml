@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+
+		<listener
+			class-name="listners.ExtentListeners"></listener>
+	</listeners>
+	<test name="Foreign Player Verification">
+		<classes>
+			<class name="com.RCB.test.ForeignPlayerVerification" />
+
+		</classes>
+	</test>
+
+	<test name="Wicket keeper Verification">
+		<classes>
+
+			<class name="com.RCB.test.WicketkeeperVerification" />
+		</classes>
+	</test>
+</suite> 

@@ -39,17 +39,15 @@ public class JsonReader {
 	}
 
 	public static ArrayList getPlayer(String playerlist) {
-		int p=0;
+		int p = 0;
 		ArrayList pl = new ArrayList();
-		System.out.println(jsonObject);
 		players = (JSONArray) jsonObject.get(playerlist);
-		System.out.println(players);
+
 		Iterator iterator = players.iterator();
 		while (iterator.hasNext()) {
 			pl.add(iterator.next());
 		}
-		
-		
+
 		return pl;
 	}
 }
